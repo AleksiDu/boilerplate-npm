@@ -1,1 +1,1 @@
-# boilerplate-npm
+https://aleksidu.github.io/boilerplate-npm/
