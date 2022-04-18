@@ -3,6 +3,7 @@
 	"author": "Aleksi Duluzauri",
 	"description": "A project that does something",
 	"keywords": [ "freecodecamp", "task", "words" ],
+	"license": "MIT",
 	"dependencies": {
 		"express": "^4.14.0"
 	},
