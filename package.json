@@ -2,12 +2,16 @@
 	"name": "fcc-learn-npm-package-json",
 	"author": "Aleksi Duluzauri",
 	"description": "A project that does something",
-	"keywords": [ "freecodecamp", "task", "words" ],
+	"keywords": [
+		"freecodecamp",
+		"task",
+		"words"
+	],
 	"license": "MIT",
 	"version": "1.2.0",
 	"dependencies": {
-		"express": "^4.14.0",
-		"moment": "2.14.0"
+		"express": "^4.17.3",
+		"moment": "^2.14.0"
 	},
 	"main": "server.js",
 	"scripts": {
