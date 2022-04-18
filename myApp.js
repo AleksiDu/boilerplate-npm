@@ -5,9 +5,13 @@ app.listen(3000);
 
 console.log("Hello World");
 
-app.get('/hello', (req, res) => {
-    res.send("Hello Express");
-});
+// app.get('/hello', (req, res) => {
+//     res.send("Hello Express");
+// });
+
+app.get("/", (req, res) => {
+    res.sendFile(__dirname + "/views/index.html");
+})
 
 
 
