@@ -5,7 +5,17 @@ require('dotenv').config();
 
 app.listen(3000);
 
+app.use((req, res, next) => {
+    
+    console.log(req.method + " " + req.path + " - " + req.ip);
+
+
+    next();
+});
+
 console.log("Hello World");
+
+
 
 // app.get('/hello', (req, res) => {
 //     res.send("Hello Express");
@@ -25,6 +35,7 @@ app.get("/json", (reg, res) => {
     }
     
 });
+
 
 
 
