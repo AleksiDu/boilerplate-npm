@@ -1,5 +1,6 @@
 let express = require('express');
 let app = express();
+let bodyParser = require('body-parser');
 
 require('dotenv').config();
 
@@ -12,6 +13,9 @@ app.use((req, res, next) => {
 
     next();
 });
+
+// parse application/x-www-form-urlencoded
+app.use(bodyParser.urlencoded({ extended: false }))
 
 console.log("Hello World");
 
